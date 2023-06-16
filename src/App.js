@@ -5,8 +5,8 @@ export default function App() {
     <div className="App">
     Weather App
     <footer>
-      This project was coded by <a href="https://github.com/teaArchivist">Alexandra Curran</a> and is open-sourced on
-    <a href="https://deluxe-syrniki-c8616f.netlify.app" target="_blank"> Github</a>.
+      This project was coded by <a href="https://beamish-wisp-000090.netlify.app">Alexandra Curran</a> and is open-sourced on
+    <a href="https://github.com/teaArchivist/react-weather-app" target="_blank"> Github</a>.
     </footer>
     </div>
   );
