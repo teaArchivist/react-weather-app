@@ -1,12 +1,14 @@
 import './App.css';
+import Weather from './Weather';
 
 export default function App() {
   return (
     <div className="container">
     <div className="App">
-    Weather App
+   
+    <Weather />
     <footer>
-      This project was coded by <a href="https://beamish-wisp-000090.netlify.app">Alexandra Curran</a> and is open-sourced on
+      This project was coded by <a href="https://beamish-wisp-000090.netlify.app" target="_blank">Alexandra Curran</a> and is open-sourced on
     <a href="https://github.com/teaArchivist/react-weather-app" target="_blank"> Github</a>.
     </footer>
     </div>
