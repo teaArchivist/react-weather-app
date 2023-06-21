@@ -6,7 +6,7 @@ export default function App() {
     <div className="container">
     <div className="App">
    
-    <Weather />
+    <Weather defaultCity="Lisbon"/>
     <footer>
       This project was coded by <a href="https://beamish-wisp-000090.netlify.app" target="_blank">Alexandra Curran</a> and is open-sourced on
     <a href="https://github.com/teaArchivist/react-weather-app" target="_blank"> Github</a>.
