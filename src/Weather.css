@@ -30,13 +30,14 @@
     line-height: 19px;
 }
 
-.Weather img {
+.Weather .clearfix canvas {
 height: 64px;
 width: 64px;
 line-height: 45px;
 display:inline-block;
 vertical-align: top;
-margin-right: 10px;
+margin-right: 5px;
+
 }
 
 .Weather .today-temp {
@@ -45,6 +46,8 @@ color: rgb(33, 33, 33);
 font-size: 64px;
 line-height: 64px;
 font-weight: 400;
+margin-left: 10px;
+
 }
 
 .Weather .unit{
@@ -54,5 +57,5 @@ font-weight: 400;
     position: relative;
     line-height: 1;
     top: -30px;
-    margin-left: 3px;
+    
 }

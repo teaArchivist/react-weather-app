@@ -14,7 +14,7 @@ function handleResponse(response) {
         humidity: response.data.main.humidity,
         city: response.data.name,
         date: new Date(response.data.dt * 1000),
-        icon: `https://openweathermap.org/img/wn/${response.data.weather[0].icon}.png`,
+        icon: response.data.weather[0].icon,
         description: response.data.weather[0].description
     });
     
