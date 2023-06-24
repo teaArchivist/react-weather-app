@@ -22,7 +22,7 @@ function handleResponse(response) {
 
 function search() {
     const apiKey = "b35c686ba9565ba0ab254c2230937552"
-    let apiURL = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    let apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiURL).then(handleResponse);
 }
 
