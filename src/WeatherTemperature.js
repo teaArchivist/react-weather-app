@@ -29,7 +29,7 @@ return (
    
     return (
         <div className="WeatherTemperature">
-        <span className="today-temp">{Math.round(fahrenheit)}</span>
+        <span className="today-temp">{Math.round(fahrenheit())}</span>
         <span className="unit"><a href="/" onClick={showCelsius}>°C</a> |  °F{" "}</span> 
         </div>
     )
