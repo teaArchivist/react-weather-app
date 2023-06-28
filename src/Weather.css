@@ -47,9 +47,6 @@ font-size: 64px;
 line-height: 64px;
 font-weight: 400;
 margin-left: 75px;
-
-
-
 }
 
 .Weather .unit{
@@ -60,4 +57,9 @@ margin-left: 75px;
     line-height: 1;
     top: -30px;
     
+}
+
+.Weather .WeatherTemperature {
+    position: relative;
+    top: -63px;
 }
