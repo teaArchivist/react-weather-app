@@ -12,6 +12,7 @@ function handleResponse(response) {
         ready: true,
         coordinates: response.data.coord,
         temperature: response.data.main.temp,
+        feelslike: response.data.main.feels_like,
         wind: response.data.wind.speed,
         humidity: response.data.main.humidity,
         city: response.data.name,
